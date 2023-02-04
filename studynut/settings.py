@@ -133,7 +133,5 @@ MEDIA_ROOT = BASE_DIR / 'static/images'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = True
-<<<<<<< HEAD
+
 CSRF_TRUSTED_ORIGINS = ['*']
-=======
->>>>>>> b623657b17ccfe4efadf7738c12a325e48d97e82
