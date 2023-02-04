@@ -120,8 +120,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = 'static/'
-MEDIA_URL ='images/'
+STATIC_URL = '/static/'
+MEDIA_URL ='/images/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATICFILES_DIRS = [
     BASE_DIR / 'static'
@@ -133,4 +133,7 @@ MEDIA_ROOT = BASE_DIR / 'static/images'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOW_ALL_ORIGINS = True
+<<<<<<< HEAD
 CSRF_TRUSTED_ORIGINS = ['*']
+=======
+>>>>>>> b623657b17ccfe4efadf7738c12a325e48d97e82
